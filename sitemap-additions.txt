@@ -1,0 +1,6 @@
+Add these two <url> entries inside the existing sitemap.xml <urlset> element if they are not already present:
+
+<url><loc>https://alldiwaagames.com/how-we-review-apps.html</loc></url>
+<url><loc>https://alldiwaagames.com/legal-guide.html</loc></url>
+
+Do not replace the existing sitemap. Keep all current URL entries and avoid duplicates.
