@@ -1,0 +1,13 @@
+Add these lines inside the <head> section of index.html and every page where you want the browser tab icon:
+
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+UPLOAD:
+1. Upload favicon.ico, favicon-32.png, apple-touch-icon.png and favicon-512.png to the ROOT of your GitHub repository (same level as index.html).
+2. Open index.html, click Edit, and paste the three link lines inside <head>, just before </head>.
+3. Save/commit. Repeat the head code on other pages if needed.
+4. Open the website in a private/incognito tab or hard-refresh. Browser favicon caching can take time.
+
+Do not put these files inside assets/ unless you also change the href paths.
